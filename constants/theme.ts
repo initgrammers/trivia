@@ -27,6 +27,46 @@ export const Colors = {
   },
 };
 
+// Vivid Educational Color Palette
+export const TriviaColors = {
+  primary: '#8B5CF6',
+  primaryDark: '#7C3AED',
+  secondary: '#3B82F6',
+  secondaryDark: '#2563EB',
+  success: '#10B981',
+  successDark: '#059669',
+  error: '#EF4444',
+  errorDark: '#DC2626',
+  warning: '#F59E0B',
+  warningDark: '#D97706',
+  
+  // Category colors
+  ciencias: '#06B6D4',
+  historia: '#F59E0B',
+  geografia: '#10B981',
+  arte: '#EC4899',
+  deportes: '#EF4444',
+  musica: '#8B5CF6',
+  
+  // Gradients
+  gradientPurple: ['#8B5CF6', '#7C3AED'],
+  gradientBlue: ['#3B82F6', '#2563EB'],
+  gradientGreen: ['#10B981', '#059669'],
+  gradientOrange: ['#F59E0B', '#D97706'],
+  gradientPink: ['#EC4899', '#DB2777'],
+  
+  // Backgrounds
+  bgLight: '#F8FAFC',
+  bgDark: '#0F172A',
+  cardLight: '#FFFFFF',
+  cardDark: '#1E293B',
+  
+  // Text
+  textPrimary: '#0F172A',
+  textSecondary: '#64748B',
+  textLight: '#FFFFFF',
+};
+
 export const Fonts = Platform.select({
   ios: {
     /** iOS `UIFontDescriptorSystemDesignDefault` */
