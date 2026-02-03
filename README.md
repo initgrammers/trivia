@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# Trivia App 🧠
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+¡Bienvenido a Trivia! Una aplicación interactiva desarrollada con [Expo](https://expo.dev) y React Native para poner a prueba tus conocimientos en diversas áreas.
 
-## Get started
+## 🚀 Características
 
-1. Install dependencies
+- **Múltiples Categorías**: Desafía tu mente en Ciencias 🔬, Historia 📜, Geografía 🌍, Arte 🎨, Deportes ⚽ y Música 🎵.
+- **Animaciones Fluidas**: Experiencia de usuario dinámica con `react-native-reanimated`.
+- **Navegación Moderna**: Utiliza `expo-router` para una navegación fluida entre pantallas.
+- **Diseño Responsivo**: Adaptado para funcionar en dispositivos móviles (Android/iOS) y web.
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Core**: [React Native](https://reactnative.dev/), [Expo](https://expo.dev/)
+- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/)
+- **Navegación**: [Expo Router](https://docs.expo.dev/router/introduction/)
+- **Animaciones**: [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
+- **Iconos**: [Expo Symbols](https://docs.expo.dev/versions/latest/sdk/symbols/), [Expo Vector Icons](https://icons.expo.fyi/)
+
+## 📦 Instalación y Uso
+
+Sigue estos pasos para ejecutar el proyecto localmente:
+
+1. **Clonar o descargar el proyecto**
+
+2. **Instalar dependencias**
+
+   Asegúrate de tener Node.js instalado.
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Iniciar la aplicación**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   O utiliza los scripts definidos en `package.json`:
+   - `npm run android` para Android
+   - `npm run ios` para iOS
+   - `npm run web` para Web
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+4. **Visualizar**
+   - Escanea el código QR con la app **Expo Go** en tu dispositivo físico.
+   - O presiona `a` (Android), `i` (iOS), o `w` (Web) en la terminal para abrir en un emulador/navegador.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📂 Estructura del Proyecto
 
-## Get a fresh project
+- **`/app`**: Contiene las pantallas y la lógica de navegación (File-based routing).
+- **`/components`**: Componentes reutilizables de la interfaz de usuario.
+- **`/data`**: Datos estáticos como las preguntas y categorías (`questions.ts`).
+- **`/constants`**: Constantes globales como temas y colores.
+- **`/hooks`**: Custom hooks para lógica compartida.
 
-When you're ready, run:
+## 🤝 Contribuir
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+¡Las contribuciones son bienvenidas! Si tienes ideas para nuevas preguntas o mejoras, siéntete libre de abrir un issue o enviar un pull request.
